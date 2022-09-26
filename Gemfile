@@ -2,34 +2,29 @@
 
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
 ruby '2.7.0'
-
+gem 'bootstrap', '~> 5.2.1'
+gem 'devise'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.0'
-
+# Build JSON APIs with ease [https://github.com/rails/jbuilder]
+gem 'jbuilder'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
-
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", "~> 1.4"
 gem 'pg'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
-gem 'rubocop', '~> 1.36', require: false
-gem 'bootstrap', '~> 5.2.1'
 gem 'jquery-rails'
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'importmap-rails'
-
-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails'
-
+gem 'rubocop', '~> 1.36', require: false
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
 
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem 'jbuilder'
+# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
+gem 'turbo-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
