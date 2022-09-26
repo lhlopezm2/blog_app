@@ -17,6 +17,8 @@ gem 'pg'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 gem 'rubocop', '~> 1.36', require: false
+gem 'bootstrap', '~> 5.2.1'
+gem 'jquery-rails'
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'importmap-rails'
 
