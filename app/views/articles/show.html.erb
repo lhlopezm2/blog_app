@@ -2,16 +2,20 @@
 
 <p><%= @article.body %></p>
 
-<ul>
-  <li><%= link_to "Edit", edit_article_path(@article) %></li>
-  <li><%= link_to "Destroy", article_path(@article), data: {
+<% if signed_in? %>
+  <ul>
+    <li><%= link_to 'Edit', edit_article_path(@article) %></li>
+    <li><%= link_to 'Destroy', article_path(@article), data: {
                     turbo_method: :delete,
-                    turbo_confirm: "Are you sure?"
+                    turbo_confirm: '¿Are you sure?'
                   } %></li>
-</ul>
+  </ul>
+<% end %>
 
 <h2>Comments</h2>
 <%= render @article.comments %>
 
+<% if signed_in? %>
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
+<% end %>
