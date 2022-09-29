@@ -1,7 +1,10 @@
 <div>
   <%= link_to 'Main', root_path %>
 </div>
-<h5><%= @user.email%></h5>
+<h5>This user is <%= @user.email%></h5>
+<p>Following <%= @user.following.count %></p>
+<p>Followers <%= @user.followers.count %></p>
+
 <% unless current_user==@user %>
   <div id='follow_form'>
   <% if current_user.following?(@user) %>
