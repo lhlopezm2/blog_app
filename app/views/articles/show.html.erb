@@ -1,3 +1,7 @@
+<div>
+  <%= link_to 'Main', root_path %>
+</div>
+
 <h1><%= @article.title %></h1>
 
 <p><%= @article.body %></p>
@@ -15,7 +19,8 @@
 <h2>Comments</h2>
 <%= render @article.comments %>
 
-<% if signed_in? %>
-<h2>Add a comment:</h2>
-<%= render 'comments/form' %>
+
+<%if current_user.following?(@user) || current_user==(@user)%>
+  <h2>Add a comment:</h2>
+  <%= render 'comments/form' %>
 <% end %>

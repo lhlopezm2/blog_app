@@ -6,14 +6,14 @@ default: &default
 development:
   <<: *default
   database: myapp_development
-  username: luis
-  password: luis123
+  username: usuario
+  password: 123
 
 test:
   <<: *default
   database: myapp_test
-  username: luis
-  password: luis123
+  username: usuario
+  password: 123
 
 production:
   <<: *default
