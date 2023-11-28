@@ -2,9 +2,9 @@
 
 
 > ---
-> <font size="5"> *"Every organization in the software business should have an Open-Source Program Office."* </font>
+> <font size="8"> *"Every organization in the software business should have an Open-Source Program Office."* </font>
 >
-> <font size="5"> \- *Luis Hurtado, Founder @ kommit* </font>
+> <font size="8"> \- *Luis Hurtado, Founder @ kommit* </font>
 >
 > ---
 
