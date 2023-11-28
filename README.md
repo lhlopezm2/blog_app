@@ -1,19 +1,10 @@
-```{css style settings, echo = FALSE}
-blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 14px;
-    border-left: 5px solid #eee;
-}
-```
-
 <div align="left">
 
 
 > ---
-> <font size="8"> *"Every organization in the software business should have an Open-Source Program Office."* </font>
+> <font size="18"> *"Every organization in the software business should have an Open-Source Program Office."* </font>
 >
-> <font size="8"> \- *Luis Hurtado, Founder @ kommit* </font>
+> <font size="18"> \- *Luis Hurtado, Founder @ kommit* </font>
 >
 > ---
 
