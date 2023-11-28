@@ -12,7 +12,7 @@
 > <h2> <i> - Luis Hurtado, Founder @ kommit </i> </h2>
 > <p style="font-size: 19px;">This is a quote.</p>
 >
-<p style="font-size: 19px;">This is a quote.</p>
+<span class="red-bold-16px">This is some red, bold, and 16px text.</span>
 At **kommit**, we provide top software maintenance services for clients across diverse industries.
 
 ### So, why do we run an Open-Source Program Office?
