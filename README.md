@@ -1,9 +1,11 @@
+```{css style settings, echo = FALSE}
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 24px;
+    font-size: 14px;
     border-left: 5px solid #eee;
 }
+```
 
 <div align="left">
 
