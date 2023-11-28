@@ -6,7 +6,7 @@
 >
 > <font size="18"> \- *Luis Hurtado, Founder @ kommit* </font>
 >
-> <h3"> <i> Hola mundo </i> </h3>
+> <h3> <i> Hola mundo </i> </h3>
 >
 > ---
 
