@@ -4,7 +4,7 @@
 > ---
 > <h2> <i> "Every organization in the software business should have an Open-Source Program Office." </i> </h2>
 >
-> <h2> <i> \- Luis Hurtado, Founder @ kommit </i> </h2>
+> <h2> <i> - Luis Hurtado, Founder @ kommit </i> </h2>
 >
 > ---
 
