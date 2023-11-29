@@ -6,12 +6,13 @@
 
 <div align="left">
 
-
+> ---
 > 
 > <h2> <i> "Every organization in the software business should have an Open-Source Program Office." </i> </h2>
 > <h2> <i> - Luis Hurtado, Founder @ kommit </i> </h2>
 > <p style="font-size: 19px;">This is a quote.</p>
 >
+> ---
 <span class="red-bold-16px">This is some red, bold, and 16px text.</span>
 At **kommit**, we provide top software maintenance services for clients across diverse industries.
 
