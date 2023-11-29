@@ -4,7 +4,7 @@
 
 </div>
 
-<div align="left">
+<div align="left" style="font-size: 20px;">
 
 > ---
 > 
