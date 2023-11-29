@@ -8,8 +8,8 @@
 
 > ---
 > 
-> ## "Every organization in the software business should have an Open-Source Program Office."
-> ## <i> - Luis Hurtado, Founder @ kommit </i>
+## "Every organization in the software business should have an Open-Source Program Office."
+## <i> - Luis Hurtado, Founder @ kommit </i>
 >
 > ---
 
